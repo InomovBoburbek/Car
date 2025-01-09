@@ -71,7 +71,7 @@ def send_photo(message):
     bot.send_message(message.chat.id, "Mers: Mers - tezlik,qulaylik va innovatsiyani birlashtirgan avtomabil turi.\nNarxi: $1.5 milliard" )
     try:
         # Rasm yo'lini ko'rsating
-        with open("C:\\Users\\HP Victus\\OneDrive\\Рабочий стол\\picture\\mers.jpg", "rb") as photo:
+        with open("C:\\Users\\user\\Pictures\\photo_2025-01-09_13-49-27 (3).jpg", "rb") as photo:
             bot.send_photo(message.chat.id, photo, caption="Mana sizga rasm!")
     except FileNotFoundError:
         bot.send_message(message.chat.id, "Rasm topilmadi. To'g'ri yo'lni ko'rsating.")
@@ -82,7 +82,7 @@ def send_photo(message):
     bot.send_message(message.chat.id, "BMW: BMW - tezlik, sport va innovatsiyani birlashtirgan avtomabil turi.\nNarxi: $1.3 milliard")
     try:
         # Rasm yo'lini ko'rsating
-        with open("C:\\Users\\HP Victus\\OneDrive\\Рабочий стол\\picture\\bmw.jpg", "rb") as photo:
+        with open("C:\\Users\\user\\Pictures\\photo_2025-01-09_13-49-26 (2).jpg", "rb") as photo:
             bot.send_photo(message.chat.id, photo, caption="Mana sizga rasm!")
     except FileNotFoundError:
         bot.send_message(message.chat.id, "Rasm topilmadi. To'g'ri yo'lni ko'rsating.")
@@ -93,7 +93,7 @@ def send_photo(message):
     bot.send_message(message.chat.id, "Audi: Audi - texnologiyalar va zamonaviy dizaynga urg'u beradigan avtomobil.\nNarxi: $100,000")
     try:
         # Rasm yo'lini ko'rsating
-        with open("C:\\Users\\HP Victus\\OneDrive\\Рабочий стол\\picture\\audi.jpg", "rb") as photo:
+        with open("C:\\Users\\user\\Pictures\\photo_2025-01-09_13-49-26.jpg", "rb") as photo:
             bot.send_photo(message.chat.id, photo, caption="Mana sizga rasm!")
     except FileNotFoundError:
         bot.send_message(message.chat.id, "Rasm topilmadi. To'g'ri yo'lni ko'rsating.")
@@ -103,7 +103,7 @@ def send_photo(message):
     bot.send_message(message.chat.id, "TESLA: TESLA - Elektro mashina bo'lib, dunyoda mashhur avtomobillardan biridir.\nNarxi: $150,000")
     try:
         # Rasm yo'lini ko'rsating
-        with open("C:\\Users\\HP Victus\\OneDrive\\Рабочий стол\\picture\\tesla.jpg", "rb") as photo:
+        with open("C:\\Users\\user\\Pictures\\photo_2025-01-09_13-49-27 (4).jpg", "rb") as photo:
             bot.send_photo(message.chat.id, photo, caption="Mana sizga rasm!")
     except FileNotFoundError:
         bot.send_message(message.chat.id, "Rasm topilmadi. To'g'ri yo'lni ko'rsating.")
@@ -113,7 +113,7 @@ def send_photo(message):
     bot.send_message(message.chat.id, "KIA: KIA - zamonaviy texnologiyalar va dizayn bilan mashhur, Koreyada ishlab chiqariladi.\nNarxi: $80,000")
     try:
         # Rasm yo'lini ko'rsating
-        with open("C:\\Users\\HP Victus\\OneDrive\\Рабочий стол\\picture\\Kia Sorento Edition 2023 UK-10.webp", "rb") as photo:
+        with open("C:\\Users\\user\\Pictures\\photo_2025-01-09_13-49-27 (2).jpg", "rb") as photo:
             bot.send_photo(message.chat.id, photo, caption="Mana sizga rasm!")
     except FileNotFoundError:
         bot.send_message(message.chat.id, "Rasm topilmadi. To'g'ri yo'lni ko'rsating.")
